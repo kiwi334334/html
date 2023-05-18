@@ -1,0 +1,45 @@
+#wrapper1{
+    background-color:skyblue;
+    top:0;
+    width: 100vh;
+    height: 100vh;
+}
+#wrapper2{
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+    top: 100vh;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height:200vh;
+}
+.fancy{
+    font-family:cursive, Georgia, 'Times New Roman', Times, serif;
+    color:aquamarine;
+}
+.side .title {
+    font-family: "Rubik", sans-serif;
+    font-size: 7vw;
+    margin: 0px 10vw;
+    width: 80vw;
+  }
+#leftside{
+    background-color: teal;
+    z-index: 2;
+}
+#rightside{
+    background-color:brown;
+}
+.fixed{
+    text-align: center;
+}
+.side {
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    place-items: center;
+    position: absolute;
+    width: 100%;
+}
