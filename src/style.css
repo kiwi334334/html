@@ -13,6 +13,7 @@ body{
     padding: 0;
     margin: 0;
     height:200vh;
+    overflow-x: hidden;
 }
 .fancy{
     font-family:cursive, Georgia, 'Times New Roman', Times, serif;
@@ -42,6 +43,14 @@ body{
     position: absolute;
     width: 100%;
 }
-#window1{
-    
+#canvas{
+  display: flex;
+  top:110vh;
+}
+#wrap2{
+    width: 220vh;
+    height: 100vh;
+    position: absolute;
+    top:100vh;
+    background-color: sandybrown;
 }
