@@ -43,10 +43,6 @@ body{
     position: absolute;
     width: 100%;
 }
-#canvas{
-  display: flex;
-  top:110vh;
-}
 #wrap2{
     width: 220vh;
     height: 100vh;
